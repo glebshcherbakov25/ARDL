@@ -28,7 +28,7 @@
 
 ## Математическая модель
 
-**ARDL(1,1,1,...,1) модель в общем виде:**
+**ARDL модель в общем виде:**
 
 $$
 \Delta y_t = \alpha + \sum_{i=1}^{p} \phi_i \Delta y_{t-i} + \sum_{j=1}^{k} \sum_{l=0}^{q_j} \beta_{jl} \Delta x_{j, t-l} + \gamma_1 y_{t-1} + \sum_{j=1}^{k} \gamma_{j+1} x_{j, t-1} + \varepsilon_t
